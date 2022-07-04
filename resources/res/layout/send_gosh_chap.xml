@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/constraintLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" android:fillViewport="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/colorstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="رنگ پرده صماخ " android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="رنگ پرده صماخ" android:layout_below="@+id/colorstatus" android:layout_alignParentRight="true"/>
+            <View android:background="#e91e63" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/color" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/tmstatustitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="وضعیت TM " android:layout_below="@+id/color" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/tmstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="وضعیت TM" android:layout_below="@+id/tmstatustitle"/>
+            <View android:background="#e91e63" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/tmstatus" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/canalgoshstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="وضعیت کانال گوش" android:layout_below="@+id/tmstatus" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/canalgosh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="وضعیت کانال گوش" android:layout_below="@+id/canalgoshstatus"/>
+            <View android:background="#e91e63" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/canalgosh" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/tashkhistitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تشخیص" android:layout_below="@+id/canalgosh" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/tashkhis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تشخیص" android:layout_below="@+id/tashkhistitle"/>
+            <View android:background="#e91e63" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/tashkhis" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/tozihtashkhistitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="توضیحات تشخیص" android:layout_below="@+id/tashkhis" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/tozihtashkhis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="توضیحات تشخیص" android:layout_below="@+id/tozihtashkhistitle" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

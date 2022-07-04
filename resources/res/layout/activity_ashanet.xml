@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/garylight" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/gradiantbackground" android:layout_width="match_parent" android:layout_height="335dp">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginTop="35dp" android:src="@drawable/photo" android:scaleType="fitXY"/>
+        </LinearLayout>
+        <android.support.v7.widget.CardView android:id="@+id/panel" android:layout_width="345dp" android:layout_height="120dp" android:layout_marginTop="275dp" android:layout_centerHorizontal="true" xmlns:ns1="http://schemas.android.com/apk/res-auto" ns1:cardCornerRadius="10dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:textSize="21sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="خوانده نشده"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/unread" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:textSize="21sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="پاسخ داده شده"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/answer" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView android:textSize="21sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="پیام ها"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/msg" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="345dp" android:layout_height="160dp" android:layout_marginTop="-10dp" android:layout_below="@+id/panel" android:layout_centerHorizontal="true" xmlns:ns2="http://schemas.android.com/apk/res-auto" ns2:cardCornerRadius="10dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:onClick="exit">
+                    <ImageView android:layout_width="match_parent" android:layout_height="80dp" android:src="@drawable/ic_power_settings_new_black_24dp"/>
+                    <TextView android:textSize="20sp" android:textColor="#f26c33" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="خروج"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:onClick="updatedb">
+                    <ImageView android:layout_width="match_parent" android:layout_height="80dp" android:src="@drawable/ic_system_update_black_24dp"/>
+                    <TextView android:textSize="20sp" android:textColor="#50ce7c" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="بروزرسانی"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:onClick="cartable">
+                    <ImageView android:layout_width="match_parent" android:layout_height="80dp" android:src="@drawable/ic_assignment_black_24dp"/>
+                    <TextView android:textSize="20sp" android:textColor="@color/startblue" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="کارتابل"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

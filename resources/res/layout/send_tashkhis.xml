@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/constraintLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" android:fillViewport="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="20sp" android:textColor="@color/startblue" android:id="@+id/tashkhisstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تشخیص " android:layout_alignParentRight="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/tashkhis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="تشخیص" android:layout_below="@+id/tashkhisstatus" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

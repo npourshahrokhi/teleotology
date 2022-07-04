@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.doctor.ashanet.ashanet">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/care" android:screenOrientation="portrait" android:allowBackup="true" android:supportsRtl="false" android:roundIcon="@mipmap/ic_launcher_round">
+        <activity android:theme="@style/FullscreenTheme" android:name="com.doctor.ashanet.ashanet.www_ashanet_ir_splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.doctor.ashanet.ashanet.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.doctor.ashanet.ashanet.Ashanet" android:screenOrientation="portrait"/>
+        <activity android:name="com.doctor.ashanet.ashanet.Cartable" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:theme="@style/AppTheme" android:label="@string/title_activity_cartable_view" android:name="com.doctor.ashanet.ashanet.CartableView" android:screenOrientation="portrait" android:noHistory="true"/>
+        <service android:name="net.gotev.uploadservice.UploadService" android:enabled="true" android:exported="true"/>
+    </application>
+</manifest>

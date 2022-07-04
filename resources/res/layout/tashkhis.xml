@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/constraintLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp" android:fillViewport="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <EditText android:id="@+id/Dcomment" android:layout_width="match_parent" android:layout_height="150dp" android:hint="نظر پزشک" android:maxLines="1" android:inputType="text"/>
+            <TextView android:layout_width="match_parent" android:layout_height="150dp" android:layout_below="@+id/Dcomment"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

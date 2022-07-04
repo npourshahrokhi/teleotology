@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rlt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/imgs" android:background="@mipmap/blur" android:layout_width="match_parent" android:layout_height="200dp" android:foregroundGravity="fill"/>
+    <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#fff" android:layout_gravity="end" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="50dp" android:text="گوش راست" android:layout_alignBottom="@+id/imgs" android:layout_alignParentLeft="true" android:textAlignment="viewEnd" android:layout_alignParentStart="true"/>
+    <ImageView android:id="@+id/zoom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="500dp" android:scaleType="fitXY"/>
+</RelativeLayout>

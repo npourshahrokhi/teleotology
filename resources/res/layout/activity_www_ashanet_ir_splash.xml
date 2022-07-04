@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#fdfdfe" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/logo" android:layout_width="250dp" android:layout_height="250dp" android:src="@drawable/cloud"/>
+        <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="#00a59b" android:layout_gravity="center" android:id="@+id/site" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="WWW.ASHANET.IR"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
